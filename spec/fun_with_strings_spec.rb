@@ -1,4 +1,4 @@
-require 'fun_with_strings'
+require_relative '../lib/fun_with_strings'
 require 'byebug'
 RSpec.configure { |config| config.expect_with(:rspec) { |c| c.syntax = [:should , :expect] }}
 

@@ -1,4 +1,4 @@
-require 'dessert'
+require_relative '../lib/dessert'
 require 'byebug'
 RSpec.configure { |config| config.expect_with(:rspec) { |c| c.syntax = [:should , :expect] }}
 
